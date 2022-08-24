@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1188</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image:url(&quot;D:666.jpg&quot;)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Data_Analysis_btn">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>140</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a song for jennifer bold</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+border-style:outset;
+border-width:2px;
+background-color:rgb(85, 170, 255)</string>
+    </property>
+    <property name="text">
+     <string>Data Analysis</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Web_Crawler_btn">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>310</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a song for jennifer bold</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+border-style:outset;
+border-width:2px;
+background-color:rgb(85, 170, 255)</string>
+    </property>
+    <property name="text">
+     <string>Web Crawler</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Computer_Vision_btn">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>450</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a song for jennifer bold</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+border-style:outset;
+border-width:2px;
+background-color:rgb(85, 170, 255)</string>
+    </property>
+    <property name="text">
+     <string>Computer Vision</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="webcam_detect_btn">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>450</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a song for jennifer bold</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+border-style:outset;
+border-width:2px;
+background-color:rgb(85, 170, 255)</string>
+    </property>
+    <property name="text">
+     <string>webcam detect</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Title_label">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>-20</y>
+      <width>871</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a song for jennifer bold</family>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>                Computer Information</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="QRcode_label">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>70</y>
+      <width>221</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a song for jennifer bold</family>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url(&quot;D:777.png&quot;)
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="myself_label">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>530</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background:transparent;
+font: 16pt &quot;a song for jennifer bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>By Tzu-Hao Weng 2022/01/15</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>421</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>431</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(255, 255, 255);
+border-width:1px;
+border-style:outset;</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>id</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>姓名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>帳號</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>信箱</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>密碼</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>確認密碼</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>checkint</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>隨機碼</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>20</y>
+       <width>301</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>標楷體</family>
+       <pointsize>28</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+color:rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>子浩系統會員名單</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>174</x>
+       <y>512</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+color:rgb(255, 255, 255);
+border-width:1px;
+border-style:outset;</string>
+     </property>
+     <property name="text">
+      <string>開啟名單</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="yolo_btn">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>310</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>a song for jennifer bold</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+border-style:outset;
+border-width:2px;
+background-color:rgb(85, 170, 255)</string>
+    </property>
+    <property name="text">
+     <string>Yolo</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1188</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
